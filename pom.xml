@@ -12,6 +12,10 @@
     <groupId>space.chatgis</groupId>
     <artifactId>spring-cloud-greenwich</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>chatgis-eureka</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
