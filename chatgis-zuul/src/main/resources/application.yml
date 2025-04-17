@@ -1,0 +1,12 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: chatgis-zuul-service
+
+zuul:
+  routes:
+    example-service:
+      path: /example/**
+      url: http://localhost:8001
