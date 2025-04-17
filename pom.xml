@@ -16,6 +16,7 @@
     <modules>
         <module>chatgis-eureka</module>
         <module>chatgis-provider</module>
+        <module>chatgis-consumer</module>
     </modules>
 
     <properties>
