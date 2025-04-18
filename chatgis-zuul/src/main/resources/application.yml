@@ -7,6 +7,9 @@ spring:
 
 zuul:
   routes:
-    example-service:
-      path: /example/**
-      url: http://localhost:8001
+    provider-service:
+      path: /provider/**
+      service-id: chatgis-eureka-provider
+    consumer-service:
+      path: /consumer/**
+      service-id: chatgis-eureka-consumer
