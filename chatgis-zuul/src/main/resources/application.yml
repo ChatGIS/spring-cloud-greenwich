@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: chatgis-zuul-service
+    name: chatgis-zuul-server
 
 zuul:
   routes:
