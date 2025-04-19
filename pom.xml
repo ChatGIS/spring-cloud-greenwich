@@ -18,6 +18,7 @@
         <module>chatgis-provider</module>
         <module>chatgis-consumer</module>
         <module>chatgis-zuul</module>
+        <module>chatgis-config</module>
     </modules>
 
     <properties>
