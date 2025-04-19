@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: chatgis-eureka-consumer
+#  profiles:
+#    active: dev
+  cloud:
+    config:
+      discovery:
+        service-id: chatgis-config-server
+        enabled: true
+      profile: dev
